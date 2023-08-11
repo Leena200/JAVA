@@ -11,12 +11,11 @@ Scanner sc = new Scanner(System.in);
     
     if(a == b){
         System.out.println("equal");
-    }else{
-        if(a > b){
-            System.out.println("a is greater");
+    }else  if(a > b){
+        System.out.println("a is greater");
         } else {
             System.out.println("a is lesser");
         }
     }
 }
-}
+
